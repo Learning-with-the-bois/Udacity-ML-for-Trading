@@ -1,0 +1,23 @@
+Date: March 5, 2023
+
+Machine Learning for Trading
+
+-Introduction
+A starting point for automatic trading.
+3 parts of the course:
+1.	Manipulating Financial Data in Python
+2.	Computational Investing
+3.	Learning Algorithms for Trading
+
+3 Books to Use
+	Python for Finance
+	What Hedge Funds Really Do
+	Machine Learning by Mitchell
+
+Will use Numpy, Scipy, Matplotlib, but mainly Pandas.
+
+-Reading and plotting stock data
+CSV = Comma-Separated-Values
+Contains a header and data organized into rows and columns, divided by commas.
+
+Pandas dataframe
