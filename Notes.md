@@ -1,6 +1,6 @@
-### Machine Learning for Trading
+# Machine Learning for Trading
 
-# Lesson 0: Introduction
+## Lesson 0: Introduction
 
 A starting point for automatic trading.
 3 parts of the course:
@@ -17,7 +17,7 @@ Will use Numpy, Scipy, Matplotlib, but mainly Pandas.
 
 <sub>Date: March 5, 2023. Time spent: 1 hour. Total: 1 hour_</sub>
 
-# Lesson 1.1: Reading and Plotting Stock Data
+## Lesson 1.1: Reading and Plotting Stock Data
 
 CSV = Comma-Separated-Values
 Contains a header and data organized into rows and columns, divided by commas.
@@ -37,6 +37,6 @@ Matplotlib to plot data, use .plot() and .show() to create it. Check library for
 
 <sub>Date: March 6, 2023. Time spent: 0.5 hours. Total: 1.5 hours</sub>
 
-1.2 Working with multiple stocks
+## 1.2 Working with multiple stocks
 
 
