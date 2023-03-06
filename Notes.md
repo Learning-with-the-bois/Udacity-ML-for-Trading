@@ -21,6 +21,7 @@ Throughout the course, we will use Numpy, Scipy, and Matplotlib, but mainly Pand
 CSV = Comma-Separated-Values. It contains a header and data organized into rows and columns, divided by commas.
 
 Panda’s library: https://pandas.pydata.org/
+
 Matplotlib's library: https://matplotlib.org/
 
 * [Quiz 1.1](Quizzes/Quiz1_1.py): Had to print the last 5 rows of a stock data frame that was read. Used .tail method of panda for n=5. Also could have done dataframe[-5:] by treating it as a list and doing slicing.
