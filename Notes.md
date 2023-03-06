@@ -18,8 +18,7 @@ Throughout the course, we will use Numpy, Scipy, and Matplotlib, but mainly Pand
 
 ## Lesson 1.1: Reading and Plotting Stock Data
 
-CSV = Comma-Separated-Values
-It contains a header and data organized into rows and columns, divided by commas.
+CSV = Comma-Separated-Values. It contains a header and data organized into rows and columns, divided by commas.
 
 Panda’s library: https://pandas.pydata.org/
 Matplotlib's library: https://matplotlib.org/
