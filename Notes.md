@@ -14,7 +14,7 @@ The 3 books to be used are:
 
 Throughout the course, we will use Numpy, Scipy, Matplotlib, but mainly Pandas.
 
-<sub>Date: March 5, 2023. Time spent: 1 hour. Total: 1 hour_</sub>
+<sub>Date: March 5, 2023. Time spent: 1 hour. Total: 1 hour</sub>
 
 ## Lesson 1.1: Reading and Plotting Stock Data
 
