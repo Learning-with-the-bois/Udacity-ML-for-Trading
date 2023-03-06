@@ -1,4 +1,4 @@
-## Machine Learning for Trading
+### Machine Learning for Trading
 
 # Lesson 0: Introduction
 
