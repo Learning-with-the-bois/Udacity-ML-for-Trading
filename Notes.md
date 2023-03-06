@@ -24,15 +24,15 @@ It contains a header and data organized into rows and columns, divided by commas
 Panda’s library: https://pandas.pydata.org/
 Matplotlib's library: https://matplotlib.org/
 
-* Quiz 1.1: Had to print the last 5 rows of a stock data frame that was read. Used .tail method of panda for n=5. Also could have done dataframe[-5:] by treating it as a list and doing slicing.
+* [Quiz 1.1](Quizzes/Quiz1_1): Had to print the last 5 rows of a stock data frame that was read. Used .tail method of panda for n=5. Also could have done dataframe[-5:] by treating it as a list and doing slicing.
 
 Can also use the name of the column as if it were a dictionary. Can use commas to retrieve more than one column.
 
-* Quiz 1.2: Calculated the mean volume of different stocks using .mean().
+* [Quiz 1.2](Quizzes/Quiz1_2): Calculated the mean volume of different stocks using .mean().
 
 Matplotlib to plot data, use .plot() and .show() to create it. Check library for further improvements of the graph (title, x/y-axis, colors, legend, etc.)
 
-* Quiz 1.3: Plotted the ‘High’ data column from the data and added some details
+* [Quiz 1.3](Quizzes/Quiz1_3): Plotted the ‘High’ data column from the data and added some details
 
 <sub>Date: March 6, 2023. Time spent: 0.5 hours. Total: 1.5 hours</sub>
 
