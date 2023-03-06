@@ -2,30 +2,29 @@
 
 ## Lesson 0: Introduction
 
-A starting point for automatic trading.
-3 parts of the course:
+The course is a starting point for automatic trading. It has 3 parts:
 1. Manipulating Financial Data in Python
 2. Computational Investing
 3. Learning Algorithms for Trading
 
-3 Books to Use
+The 3 books to be used are:
 * Python for Finance
 * What Hedge Funds Really Do
 * Machine Learning by Mitchell
 
-Will use Numpy, Scipy, Matplotlib, but mainly Pandas.
+Throughout the course, we will use Numpy, Scipy, Matplotlib, but mainly Pandas.
 
 <sub>Date: March 5, 2023. Time spent: 1 hour. Total: 1 hour_</sub>
 
 ## Lesson 1.1: Reading and Plotting Stock Data
 
 CSV = Comma-Separated-Values
-Contains a header and data organized into rows and columns, divided by commas.
+It contains a header and data organized into rows and columns, divided by commas.
 
 Panda’s library: https://pandas.pydata.org/
-Matplotlib library: https://matplotlib.org/
+Matplotlib's library: https://matplotlib.org/
 
-* Quiz 1.1: Had to print the last 5 rows of a stock data frame that was read. Used .tail method of panda for n=5. Also could have done dataframe[-5:] by treating it as a list and doing slicing on it.
+* Quiz 1.1: Had to print the last 5 rows of a stock data frame that was read. Used .tail method of panda for n=5. Also could have done dataframe[-5:] by treating it as a list and doing slicing.
 
 Can also use the name of the column as if it were a dictionary. Can use commas to retrieve more than one column.
 
