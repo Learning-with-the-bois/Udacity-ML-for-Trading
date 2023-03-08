@@ -38,4 +38,6 @@ Matplotlib to plot data, use .plot() and .show() to create it. Check library for
 
 ## 1.2 Working with multiple stocks
 
+* [Quiz 1.1](Quizzes/Quiz1_2_1): Added my notes of the lecture to the code as it’s easier to explain that way.  Used read_csv() with several parameters and join() to save the desired data. Also took out the nan with the .dropna() method.
 
+<sub>Date: March 7, 2023. Time spent: 1.0 hours. Total: 2.5 hours</sub>
