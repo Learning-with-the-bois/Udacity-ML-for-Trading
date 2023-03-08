@@ -10,12 +10,16 @@ def symbol_to_path(symbol, base_dir="data"):
 
 def get_data(symbols, dates):
     """Read stock data (adjusted close) for given symbols from CSV files."""
-    df = pd.DataFrame(index=dates)
+    df = pd.DataFrame(index=dates) ## index= changes the default 0,1,2 to the variable
     if 'SPY' not in symbols:  # add SPY for reference, if absent
         symbols.insert(0, 'SPY')
 
     for symbol in symbols:
         # TODO: Read and join data for each symbol
+        df_tmp= pd.read_csv(symbol_to_path(symbol), index_col= 'Date', parse_dates=True, usecols=['Date', 'Adj Close'], na_values=['nan'])
+        df_tmp = df_tmp.rename(columns={'Adj Close': symbol})
+        df = df.join(df_tmp) # Tried to use how = 'inner' but got a message saying that my order was wrong? 
+        df = df.dropna() 
 
     return df
 
