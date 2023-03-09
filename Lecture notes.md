@@ -61,3 +61,19 @@ Once you have multiple stocks, you can:
  * Carry out arithmetic operations across stocks, e.g. normalize by the first day's price
 
 <sub>Date: March 8, 2023. Time spent: 1.0 hour. Total: 3.5 hours</sub>
+
+
+## 1.3 The Power of Numpy
+Can treat dataframes like ndarrays, but they contain many more routines.
+Can access data using nd\[row,col] 
+Can also create different arrays with specific values using .empty(), .ones(), .zeros(), .random.random() and specify datatype with the parameter dtype.
+Can also use random sampling that follows normal deviations. 
+.random.seed() to get same number generator.
+Can specify in which way and operation is wanted to be made, axis=0 means rows and axis=1 equals columns.
+
+* Quiz 1.3.1: Found the index of the maximum value in a 1D array using .argmax().
+time library to calculate time. Can use time.time() and compare values.
+Can access values in array with array\[row,colum], or slicing to get a range of them. It can also be used to modify the respective elements.
+
+~1.5 hour
+<sub>Date: March 8,9, 2023. Time spent: 1.5 hours. Total: 5.0 hours</sub>
