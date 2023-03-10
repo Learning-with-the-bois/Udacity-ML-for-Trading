@@ -113,5 +113,20 @@ To fill the missing data, can use .fillna(), use method ‘ffill’ for forward 
 
 <sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 6.5 hours</sub>
 
+## Lesson 1.6 Histograms and Scatter Plots
+
+Looking at daily returns alone isn’t very useful, they should be contextualized with other stocks.
+
+Histograms can be a valuable tool to understanding stock data. Can measure statistics like standard deviation, mean and kurtosis (how much the actual results differ from the normal distribution on the tail ends). Use .hist() to plot it.
+
+Scatterplots can be useful to see a relation between two stocks. 
+
+* Beta, the slope of the line in scatterplot, refers to how reactive the stock is to the market (if compared to a stock that closely follows the market, like S&P500). 
+
+* Alpha, where the line intersects the y-axis, can tell you whether the stock is consistently performing better than the market.
+
+* Correlation is a measure of how similarly two stocks change.
+
+<sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 7.0 hours</sub>
 
 
