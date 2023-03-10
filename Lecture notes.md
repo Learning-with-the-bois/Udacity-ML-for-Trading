@@ -82,3 +82,22 @@ time library to calculate time. Can use time.time() and compare values.
 Can access values in array with array\[row,colum], or slicing to get a range of them. It can also be used to modify the respective elements.
 
 <sub>Date: March 8,9, 2023. Time spent: 1.5 hours. Total: 5.0 hours</sub>
+
+## 1.4 Statistical analysis of time series
+
+Can easily calculate statistics on pandas dataframes. There’s two types:
+
+* Global statistics: General statistics over the whole interval, i.e mean, median, std, sum, etc.
+
+* Rolling statistics: Statistics of a specific range of the interval done repeatedly to form a graph, i.e. rolling mean, rolling std, etc. 
+
+Bollinger Bands: They consist on comparing the rolling mean to two standard deviations away from it, and seeing when the stock price goes outiside the range to potentially inform trading decisions.
+
+* Quiz 1.4.1: Obtained Bollinger bands by calculating the rolling mean of the stock price and the rolling standard deviation and then added 2 of them to the rolling mean to obtain the upper limit, and subtracted 2 for the lower limit.
+
+Daily returns: Day-to-day change in stock price. One of the most important factors used in financial analysis. It is calculated by seeing the amount the price change relative to its total price.
+
+* Quiz 1.4.2: Calculated the daily return by dividing the current stock dataframe to one shifted by 1 space (the current vs the one on the previous day) and subtracting 1 to it. Then had to assign 0 to the first values as they couldn't be calculated.
+
+<sub>Date: March 9, 2023. Time spent: 1.0 hour. Total: 6.0 hours</sub>
+
