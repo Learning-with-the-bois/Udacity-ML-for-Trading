@@ -2,6 +2,9 @@
 
 ## Lesson 0: Introduction
 
+Udacity course: https://www.udacity.com/course/machine-learning-for-trading--ud501
+Course website: https://lucylabs.gatech.edu/ml4t/
+
 The course is a starting point for automatic trading. It has 3 parts:
 1. Manipulating Financial Data in Python
 2. Computational Investing
@@ -11,6 +14,11 @@ The 3 books to be used are:
 * Python for Finance
 * What Hedge Funds Really Do
 * Machine Learning by Mitchell
+
+Other Materials (from website, more formal course):
+* Introduciton to Statistical Learning by James, Witten, et al.
+* Probabilistic Machine Learning by Kevin Murphy.
+* Foundations of Deep Reinforcement Learning by Graesser and Keng.
 
 Throughout the course, we will use Numpy, Scipy, and Matplotlib, but mainly Pandas.
 
