@@ -109,7 +109,7 @@ Fill forward/backwards is better than interpolation for filling gaps in data, as
 
 To fill the missing data, can use .fillna(), use method ‘ffill’ for forward fill and 'dfill for backwards.
 
-* Quiz1.5.1: Used methods ffill and bfill in that order to complete the data and set inplace to True so that the values are replaced.
+* Quiz 1.5.1: Used methods ffill and bfill in that order to complete the data and set inplace to True so that the values are replaced.
 
 <sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 6.5 hours</sub>
 
