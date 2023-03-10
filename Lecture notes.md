@@ -36,7 +36,7 @@ Matplotlib to plot data, use .plot() and .show() to create it. Check library for
 
 <sub>Date: March 6, 2023. Time spent: 0.5 hours. Total: 1.5 hours</sub>
 
-## 1.2 Working with multiple stocks
+## Lesson 1.2 Working with multiple stocks
 
 * Quiz 1.2.1:  Used read_csv() with several parameters -index_col, parse_dates, usecols, and na_values. Then used join() to save the desired data. Also took out the nan with the .dropna() method.
 
@@ -63,7 +63,7 @@ Once you have multiple stocks, you can:
 <sub>Date: March 8, 2023. Time spent: 1.0 hour. Total: 3.5 hours</sub>
 
 
-## 1.3 The Power of Numpy
+## Lesson 1.3 The Power of Numpy
 
 Can treat dataframes like ndarrays, but they contain many more routines.
 
@@ -83,7 +83,7 @@ Can access values in array with array\[row,colum], or slicing to get a range of 
 
 <sub>Date: March 8,9, 2023. Time spent: 1.5 hours. Total: 5.0 hours</sub>
 
-## 1.4 Statistical analysis of time series
+## Lesson 1.4 Statistical analysis of time series
 
 Can easily calculate statistics on pandas dataframes. There’s two types:
 
@@ -100,4 +100,18 @@ Daily returns: Day-to-day change in stock price. One of the most important facto
 * Quiz 1.4.2: Calculated the daily return by dividing the current stock dataframe to one shifted by 1 space (the current vs the one on the previous day) and subtracting 1 to it. Then had to assign 0 to the first values as they couldn't be calculated.
 
 <sub>Date: March 9, 2023. Time spent: 1.0 hour. Total: 6.0 hours</sub>
+
+## Lesson 1.5 Incomplete Data
+
+Stock data is not perfect. It can have gaps or missing points, and different sources can have different values. So, they are usually an amalgamation of them. Furthermore, stocks can temporarily or permanently stop or begin trading, which means there wouldn’t always be data related to them.
+
+Fill forward/backwards is better than interpolation for filling gaps in data, as interpolation implies knowledge from the future.
+
+To fill the missing data, can use .fillna(), use method ‘ffill’ for forward fill and 'dfill for backwards.
+
+* Quiz1.5.1: Used methods ffill and bfill in that order to complete the data and set inplace to True so that the values are replaced.
+
+<sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 6.5 hours</sub>
+
+
 
