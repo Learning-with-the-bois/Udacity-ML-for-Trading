@@ -139,11 +139,15 @@ Scatterplots can be useful to see a relation between two stocks.
 
 ## Lesson 1.8 Optimizers: Building a parametrized model 
 Optimizers are algorithms that can:
+
 •	Find minimum values of functions.
+
 •	Build Parametrized models based on data.
+
 •	Refine allocations to stocks in portfolios.
 
 How to use them:
+
 1.	Provide a function to minimize.
 2.	Provide an initial guess (can provide random/standard value).
 3.	Call the optimizer until it converges.
