@@ -137,4 +137,29 @@ Scatterplots can be useful to see a relation between two stocks.
 
 <sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 7.0 hours</sub>
 
+## Lesson 1.8 Optimizers: Building a parametrized model 
+Optimizers are algorithms that can:
+•	Find minimum values of functions.
+•	Build Parametrized models based on data.
+•	Refine allocations to stocks in portfolios.
 
+How to use them:
+1.	Provide a function to minimize.
+2.	Provide an initial guess (can provide random/standard value).
+3.	Call the optimizer until it converges.
+
+Need to use scipy.optimize (spo) to use them. Can call it using the method .minimize().
+
+Convex (graphs) problems are the easiest to solve by minimizers. They must have only one minima and can’t have flat regions. Also, functions with discontinuities can be hard to compute.
+
+A good question to ask is what are we minimizing? When trying to optimize some function.
+
+<sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 7.5 hours</sub>
+
+## Lesson 1.9 Optimizers: How to optimize a portfolio
+
+Portfolio optimization: Given a set of assets and a time period, find an allocation of funds to assets that maximizes performance, (must define metrics on which performance is measured).
+
+To improve optimizing speed, can provide ranges (limits on the values), and constrains (properties of x that must be true).
+
+<sub>Date: March 10, 2023. Time spent: 0.5 hours. Total: 8.0 hours</sub>
