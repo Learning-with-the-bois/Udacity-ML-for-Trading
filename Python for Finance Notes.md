@@ -7,7 +7,9 @@
 
 Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is characterized by the 
 following features: open source, interpreted, multiparadigm – supports different programming and implementation paradigms-, multipurpose, 
-cross-platform, dynamically typed, indentation aware, and garbage collecting.
+cross-platform, dynamically typed, indentation aware, and garbage collecting. 
+
+<br />
 
 ### Benefits of Python
 
@@ -18,10 +20,14 @@ and scientific developers.
 
 The scientific stack is: NumPy, SciPy, matplotlib, PyTables, and pandas.
 
+<br />
+
 ### Python in Finance
 
 Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive 
 advantages as well as disadvantages. Banks and financial institutions together form the industry that spends the most on technology on an annual basis.
+
+<br />
 
 #### Pros and Cons
 
@@ -36,6 +42,8 @@ There is one discipline that has seen a strong increase in importance in the fin
 It refers to the discipline of applying software and technology in combination with (possibly advanced) algorithms and methods 
 to gather, process, and analyze data in order to gain insights, to make decisions, or to fulfill regulatory requirements, for instance. 
 
+<br />
+
 ### More Benefits of using Python
 
 Some of the aspects worth highlighting of Python for finance are its simple syntax, its ease of math to code translation and the power of vectorization. 
@@ -48,6 +56,7 @@ We have:
 
 * Python for technically modeling and implementing abstract aspects, algorithms, complex quantities, etc. 
 
+<br />
 
 At a high level, benefits from using Python can be measured in three dimensions:
 
@@ -57,6 +66,7 @@ At a high level, benefits from using Python can be measured in three dimensions:
 
 * Quality: unique capacitites
 
+<br />
 
 Python is often seen as very slow as it’s an interpreted language, but it doesn’t have to be. Three strategies to improve performance are:
 
@@ -71,6 +81,7 @@ Another important benefit of Python is that it can be used end to end, from prot
 Python per se is not a high-performance computing technology. However, Python has developed into an ideal platform to access current 
 performance technologies. In that sense, Python has become something like a glue language for performance computing.
 
+<br />
 
 Aside notes:
 
