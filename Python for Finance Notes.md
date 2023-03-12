@@ -74,4 +74,4 @@ parallelism, and ne.evaluate(‘function’) for the calculation itself.
 
 Another important benefit of Python is that it can be used end to end, from prototyping to production.
 
-Date: March 11&12, 2023. Time spent: 2.5 hours. Total: 2.5 hours
+<sub>Date: March 11&12, 2023. Time spent: 2.5 hours. Total: 2.5 hours</sub>
