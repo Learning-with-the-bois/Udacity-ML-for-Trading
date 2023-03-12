@@ -1,7 +1,7 @@
 
 # Python For Finance by Yves Hilpisch
 
-## Chapter 1
+## Chapter 1. Why Python for Finance?
 
 ### What is python?
 
