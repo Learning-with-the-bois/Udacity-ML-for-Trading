@@ -73,3 +73,5 @@ Example of optimizing a code in page 27 (pdf)  some cool tricks were using the m
 parallelism, and ne.evaluate(‘function’) for the calculation itself.
 
 Another important benefit of Python is that it can be used end to end, from prototyping to production.
+
+Date: March 11&12, 2023. Time spent: 2.5 hours. Total: 2.5 hours
