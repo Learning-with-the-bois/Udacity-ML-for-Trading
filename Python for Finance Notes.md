@@ -91,3 +91,16 @@ Example of optimizing a code in page 27 (pdf)  some cool tricks were using the m
 parallelism, and ne.evaluate(‘function’) for the calculation itself.
 
 <sub>Date: March 11&12, 2023. Time spent: 2.5 hours. Total: 2.5 hours</sub>
+
+<sub>(checked chapter 2&3 but decided to skip them. Chapter 2 treated basic coding and chapter 3 nice examples of financial applications but it was a bit too complex. I'd rather read the whole version.)</sub>
+
+## Chapter 4. On Python data types and structures
+
+Basic Data types: Integers,  floats, strings,
+
+A powerful tool when working with string objects is regular expressions
+
+Basic Data Structures:  
+
+
+<sub>Date: March 15, 2023. Time spent: 1.0 hours. Total: 3.5 hours</sub>
