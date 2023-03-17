@@ -102,5 +102,25 @@ A powerful tool when working with string objects is regular expressions
 
 Basic Data Structures:  
 
-
 <sub>Date: March 15, 2023. Time spent: 1.0 hours. Total: 3.5 hours</sub>
+
+Basic Data Structures. They are objects that can contain several other objects. Some types are tuples, lists, dictionaries and sets.
+tuple objects are not very flexible since, once defined, they cannot be changed easily. They are limited in applications and defined with parenthesis.
+
+Objects of type list are much more flexible and powerful in comparison to tuple objects. They are defined through brackets and the basic capabilities and behavior are similar to those of tuple objects.
+
+dict objects are dictionaries, and also mutable sequences, that allow data retrieval by keys. They are called key-value store and are unordered and unsortable. They are defined by curly brackets.
+
+Sets are unordered collections of other objects, containing every element only once. You can implement set theory operations.
+
+Functional Programming: Python provides a number of tools for functional programming support as well — i.e., the application of a function to a whole set of inputs (in our case list objects). Among these tools are filter, map, and reduce.
+
+lambda functions are small anonymous functions of one expression.
+
+Numpy data structures: 
+
+Arrays: An array represents an i × j matrix of elements. They are one of the most important data structures as scientific and financial applications generally have a need for the high-performing operations they might provide.
+
+Use deepcopy function of copy module to copy an object.
+
+<sub>Date: March 17, 2023. Time spent: 0.5 hours. Total: 4.0 hours</sub>
