@@ -124,3 +124,21 @@ Arrays: An array represents an i × j matrix of elements. They are one of the mo
 Use deepcopy function of copy module to copy an object.
 
 <sub>Date: March 17, 2023. Time spent: 0.5 hours. Total: 4.0 hours</sub>
+
+NumPy provides structured arrays that allow us to have different NumPy data types per column. As an example, one can be initialized as follows:
+
+dt = np.dtype(\[(‘Name’, ‘S10’), (‘Age’, ‘i4’), (‘Height’, ‘f’), (‘Children/Pets’, ‘i4’, 2)])
+s = np.array(\[(‘Smith’, 45, 1.83, (0, 1)), (‘Jones’, 53, 1.72, (2, 2))], dtype=dt)
+
+Vectorization of code is a strategy to get more compact code that is possibly executed faster. The fundamental idea is to conduct an operation on or to apply a function to a complex object “at once” and not by iterating over the single elements of the object.
+
+NumPy also supports what is called broadcasting. This allows us to combine objects of different shape within a single operation.
+
+Depending on the specific shape of the data structures, care should be taken with regard to the memory layout of arrays. Choosing the right approach here can speed up code execution by a factor of two or more. It specifies which elements of an array get stored in memory next to each other. Two types are mentioned, C and F like memory layouts.
+
+<sub>Date: March 19, 2023. Time spent: 0.5 hours. Total: 4.0 hours</sub>
+
+## Chapter 5. Data Visualization
+
+
+
